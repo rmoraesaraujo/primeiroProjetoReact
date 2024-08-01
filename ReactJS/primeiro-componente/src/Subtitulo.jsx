@@ -1,3 +1,3 @@
-export function Subtitulo() {
-   return <h2>Subtítulo da minha página</h2>;
+export function Subtitulo(props) {
+   return <h2>Subtítulo da página do {props.autor}</h2>;
 }
