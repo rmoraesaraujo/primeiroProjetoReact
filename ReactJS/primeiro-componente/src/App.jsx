@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Subtitulo } from './Subtitulo'
 import './App.css'
 
 function App() {
@@ -17,6 +16,7 @@ function App() {
   return (
   <div>
     <h1>Meu primeiro título com React {numeroAleatorio}</h1>
+    <Subtitulo />
     <button onClick={trocarNumeroAleatorio}>Novo número aleatório</button>
   </div>
   )
